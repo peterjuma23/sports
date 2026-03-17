@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fitness tips · group hobby</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <header>
+    <div class="container header-container">
+      <div class="logo-area">
+        <i class="fas fa-dumbbell"></i>
+        <i class="fas fa-futbol"></i>
+        <h1>Sports & Fitness</h1>
+      </div>
+      <p class="tagline">active group hobby</p>
+    </div>
+  </header>
+
+  <nav>
+    <div class="container nav-container">
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="sports.html">Sports</a></li>
+        <li><a href="fitness.html" class="active">Fitness tips</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <div class="container main-grid">
+      <section class="content">
+        <h2>🧘 fitness tips from our group</h2>
+        <p>Small habits, big results. Here's what works for us:</p>
+
+        <ul class="tips-list">
+          <li><i class="fas fa-check-circle green"></i> <strong>Morning stretch:</strong> 5 minutes dynamic moves before coffee.</li>
+          <li><i class="fas fa-check-circle green"></i> <strong>Hydrate:</strong> drink at least 2L water, especially on game days.</li>
+          <li><i class="fas fa-check-circle green"></i> <strong>Rest is training:</strong> take one full rest day per week.</li>
+          <li><i class="fas fa-check-circle green"></i> <strong>Buddy system:</strong> workout with a friend = more fun, more consistency.</li>
+        </ul>
+
+        <div class="image-row">
+          <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600&auto=format&fit=crop" alt="fitness woman stretching">
+          <img src="https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?w=600&auto=format&fit=crop" alt="person doing pull ups">
+        </div>
+
+        <div class="interactive-section">
+          <h3>👋 say hi</h3>
+          <button id="greetBtn" class="btn">Click for a welcome message</button>
+          <form id="quickContact" class="mini-form">
+            <label for="name">Your name:</label>
+            <input type="text" id="name" name="name" placeholder="e.g. Sam" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="2" placeholder="Share your tip!" required></textarea>
+            <input type="text" name="_gotcha" style="display:none">
+            <button type="submit" class="btn secondary">Send Message</button>
+          </form>
+          
+          <p id="formFeedback" class="feedback"></p>
+        </div>
+      </section>
+
+      <aside class="sidebar">
+        <h3>tip of the week</h3>
+        <p>🍌 eat a banana 30min before training – natural energy!</p>
+        <div class="side-img">
+          <img src="https://images.unsplash.com/photo-1483721310020-03333e577078?w=400&auto=format&fit=crop" alt="healthy snack">
+        </div>
+      </aside>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container footer-container">
+      <p><i class="fas fa-heart"></i> Sports & Fitness group hobby · est. 2024</p>
+      <p class="small">meet us at the park · every Wednesday 6pm</p>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
